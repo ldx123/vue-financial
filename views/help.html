@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="full-screen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1">
+    <meta name="description" content="description">
+    <meta name="Keywords" content="Keywords">
+    <title>传嘉宝</title>
+</head>
+<style>
+  *{margin: 0;padding: 0;}
+  html,body{  height: 100%;  width: 100%;  }
+  img{border: none;}
+  .wx-top{box-sizing: border-box; width: 100%; padding: 0 15px; font-size: 16px; height: 55px; text-align: center;line-height: 55px;
+    position: absolute;top: 0;left: 0;background-color: #fff;z-index: 100;border-bottom: 1px solid #E8E6E6;
+  }
+  .goback{position: absolute;top:12px;left: 15px;width: 30px;height: 30px;}
+  .wrap{  box-sizing: border-box;  position:absolute;  z-index:1;  top:55px;  left:0;  bottom:0;padding: 10px;
+    overflow:auto;/* winphone8和android4+ */
+    -webkit-overflow-scrolling: touch; /* ios5+ */
+  }
+  .wrap::-webkit-scrollbar{width:0;height:0}
+   h2{font-size: 14px;}
+   p{font-size: 12px;margin-bottom: 20px;}
+</style>
+<body>
+    <header class="wx-top">
+        <img class="goback" src="../static/images/goback.png" alt="goback" onclick="history.go(-1)">
+        帮助中心
+    </header>
+    <div class="wrap">
+        <h2>可用余额：</h2>
+        <p>即嘉币转化为理财金后，去除冻结金额和在投金额后所剩余的可用理财金的数额体现；</p>
+        <h2>冻结金额：</h2>
+        <p>即用于参与正在募集的项目的资金金额；</p>
+        <h2>在投金额：</h2>
+        <p>即用于参与募集完毕且处于流转中项目的资金金额；</p>
+        <h2>总金额：</h2>
+        <p>即账户内可用余额、冻结金额、在投金额的总和；</p>
+        <h2>累计收益：</h2>
+        <p>即参与过的募集资金项目的收益和活动奖励的总和；</p>
+        <h2>累计佣金：</h2>
+        <p>即所推荐的客户参与募集项目后所产生的推荐佣金的总和</p>
+    </div>
+</body>
+</html>
